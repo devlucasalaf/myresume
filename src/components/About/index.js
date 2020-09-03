@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id='containerAbout'>
       <div id='aboutMe'>
-        <p>Sou entusiastas das tecnologias relacionadas ao Javascript. Desenvolvedor especializado em front-end, focado em entregar aplicações dinâmicas e sofisticadas,
+        <p>Sou entusiasta das tecnologias relacionadas ao Javascript. Desenvolvedor especializado em front-end, focado em entregar aplicações dinâmicas e sofisticadas,
         fornecendo ao cliente uma excelente experiência de usuário. Domino as tecnologias do ReactJS, NodeJS e Javascript.
         </p>
       </div>
