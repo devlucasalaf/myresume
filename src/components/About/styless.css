@@ -1,0 +1,88 @@
+div#containerAbout {
+  margin-right: 2rem;
+}
+
+div#aboutMe {
+  background: white;
+  width: 90%;
+  margin-left: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 2px 2px rgb(211, 210, 210), -2px 2px rgb(211, 210, 210);
+  padding: 2rem;
+}
+
+div#aboutMe p {
+  font-size: 1.6rem;
+}
+
+#formationH1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 2.6rem;
+  color: rgb(246, 91, 117)
+}
+
+div#formation {
+  background: white;
+  margin-left: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 2px 2px rgb(211, 210, 210), -2px 2px rgb(211, 210, 210);
+  padding: 2rem;
+  width: 90%;
+  margin-bottom: 40px
+}
+
+.grad h1 {
+  font-size: 1.5rem;
+  color: rgb(246, 91, 117);
+  text-transform: uppercase;
+  margin-bottom: 10px
+}
+
+.grad h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 10px
+}
+
+.grad h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+div#graduation1 {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid rgb(158, 156, 156);
+}
+
+@media (min-width: 768px) {
+  div#containerAbout {
+    width: 100%;    
+  }
+}
+
+@media (min-width: 1213px) {
+  div#formation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  div#graduation1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+    border-right: 1px solid rgb(158, 156, 156);
+    padding-right: 150px
+  }
+
+  div#graduation2 {
+    margin-right: 18rem;
+    margin-left: 2rem
+  }
+}
+

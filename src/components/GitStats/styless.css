@@ -1,0 +1,53 @@
+#techCont {
+  text-align: center;
+  color: rgb(246, 91, 117);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 2.5rem
+}
+
+#techStats {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem
+}
+
+.reposDiv {
+  background: white;
+  margin-bottom: .5rem;
+  padding: 20px
+}
+
+.reposDiv:hover {
+  box-shadow: 2px 2px 5px rgb(211, 210, 210), -2px -2px 5px rgb(211, 210, 210)
+}
+
+strong {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: black
+}
+
+strong:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  div#containerRepos {
+    margin-left: 2rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px
+  }
+}
+
+@media (min-width: 1213px) {
+  div#containerRepos {
+    margin-left: 2rem;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px
+  }
+}

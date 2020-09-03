@@ -1,0 +1,21 @@
+div#footerDiv {
+  border-top: 1px solid rgb(172, 170, 170);
+  margin-bottom: 20px
+}
+
+div#footerDiv p {
+  text-align: center;
+  padding-top: 20px
+}
+
+div#footerDiv p a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+div#footerDiv p a:hover {
+  text-decoration: underline;
+}

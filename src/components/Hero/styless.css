@@ -1,0 +1,118 @@
+div#containerHero {
+    margin-top: 4rem;
+    background: url(/back-network.png) top left no-repeat;
+}
+
+div#hero1 {
+  width: 90%;
+  padding-right: 2rem;
+}
+
+div#hero1 h1#myname {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2rem;
+  display: flex;
+  width: 90%;
+  margin-left: 4rem;
+}
+
+div#hero1 h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  display: flex;
+  width: 90%;
+  margin-left: 4rem
+}
+
+div#contactDiv {
+  border: 1px solid rgb(246, 91, 117);
+  margin-left: 2rem;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding-top: 2rem;
+  max-width: 700px;
+}
+
+div#contactDiv h1#contact {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: white;
+  position: absolute;
+  margin-top: -3.3rem;
+  background: rgb(246, 91, 117);
+  margin-left: 2rem;
+  padding: 0.3rem
+}
+
+div#contactDiv #emailP {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+div#contactDiv #linksP {
+  text-align: center;
+}
+
+div#contactDiv a {
+  font-size: 3.5rem;
+  color: black;
+}
+
+#heroImg {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  div#containerHero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "contact perfil"
+    ;    
+    padding-top: 200px;
+    margin-top: 0px;
+  }
+
+  div#hero1 {
+    margin-bottom: 100px
+  }
+
+  div#contactDiv {
+    grid-area: contact;
+    margin-bottom: 20px;
+  }
+
+  div#heroImg {
+    grid-area: perfil;
+    margin-right: 10rem;
+    margin-bottom: 0px
+  }
+
+  img#perfilImg {
+    width: 300px;
+    height: auto
+  }
+  }
+
+  @media (min-width: 1019px) {
+    div#containerHero{
+      background: url(/back-network.png) top right no-repeat
+    }
+  }
+
+
+
+
+
+
+
+
+
+
